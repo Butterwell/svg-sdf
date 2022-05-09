@@ -1,0 +1,28 @@
+{
+  "name": "@butterwell/svg-sdf",
+  "version": "0.0.8",
+  "description": "Generate signed-distance-field textures",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "texture",
+    "png"
+  ],
+  "author": "Christopher Michael Buck",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Butterwell/svg-sdf.git"
+  },
+  "homepage": "https://github.io/Butterwell/svg-sdf",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.6.4",
+  },
+  "dependencies": {
+  }
+}

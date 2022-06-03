@@ -16,7 +16,7 @@ export function nomralize(raw: Array<number>, svgDomainSize: number, padAsMultip
 export function distanceToPath(x : number, y: number, path: SVGPathElement): number {
   const pathLength = path.getTotalLength()
   // TODO Test this heristic with complicated letters (or just change to 32)
-  const sections = 64
+  const sections = 128
   var chunk = pathLength / sections
   const chunks = [...Array(sections).keys()].map(i => i * chunk)
   // Find closest point of initial choices

@@ -1,6 +1,6 @@
 {
   "name": "@butterwell/svg-sdf",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Generate signed-distance-field textures",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -19,6 +19,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^4.6.4"
   },
